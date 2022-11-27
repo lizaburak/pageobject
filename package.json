@@ -1,0 +1,25 @@
+{
+  "name": "pageobject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js --timeout 90000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizaburak/pageobject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizaburak/pageobject/issues"
+  },
+  "homepage": "https://github.com/lizaburak/pageobject#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "selenium-webdriver": "^4.6.1"
+  }
+}
